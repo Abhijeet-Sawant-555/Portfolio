@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 73);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(250, 7, 7);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+
+.firstSection>div {
+    width: 31%;
+
+
+}
+
+.leftSection {
+
+    font-size: 2.5rem;
+
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    font-weight: bolder;
+    color: rgba(166, 75, 252, 0.795);
+}
+
+#element {
+    color: rgb(141, 245, 62);
+    font-weight: 600;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 12px;
+    position: relative;
+    top: -19px;
+    left: 200px;
+    background: #000440;
+    color: white;
+    cursor: pointer;
+    border: 3px solid;
+    border-radius: 8px;
+    margin: 0 15px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+
+main hr {
+    margin: 50px 115px;
+    border: 2px solid;
+}
+
+.secondSection {
+    margin-bottom: 367px;
+}
+
+.secondSection h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgba(166, 75, 252, 0.795);
+}
+
+.horizotal {
+    display: flex;
+    margin: 3vh 24vw;
+    background-color: white;
+    height: 3px;
+    justify-content: space-between;
+}
+
+
+.vertical {
+    height: 145px;
+    width: 3px;
+    background-color: white;
+}
+
+.vertical img {
+    right: 68px;
+    top: 136px;
+    position: relative;
+    height: 140px;
+    width: 140px;
+}
+
+.thirdSection {
+    margin-top: 100px;
+}
+
+.thirdSection h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgba(166, 75, 252, 0.795);
+}
+
+.thirdSection .thirdSection h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgba(166, 75, 252, 0.795);
+}
+
+.thirdSection .horizotal {
+    display: flex;
+    margin: 3vh 24vw;
+    background-color: white;
+    height: 3px;
+    justify-content: space-between;
+}
+
+
+.thirdSection .vertical {
+    height: 145px;
+    width: 3px;
+    background-color: white;
+}
+
+.thirdSection .vertical img {
+    right: 68px;
+    top: 136px;
+    position: relative;
+    height: 140px;
+    width: 140px;
+}
+
+.progress {
+    font-size: 25px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #968a8a;
+    margin: 145px -75px;
+    width: 238px;
+    height: 18px;
+}
+
+.progress span {
+    position: relative;
+    right: -10px;
+    top: -46px;
+}
+
+#progress_0 {
+    height: 36px;
+    width: 85%;
+    top: -9px;
+    left: -10px;
+    position: relative;
+    background-color: green;
+    border-radius: 8px;
+}
+
+#progress_1 {
+    height: 36px;
+    width: 80%;
+    top: -9px;
+    left: -10px;
+    position: relative;
+    background-color: green;
+    border-radius: 8px;
+}
+
+#progress_2 {
+    height: 36px;
+    width: 60%;
+    top: -9px;
+    left: -10px;
+    position: relative;
+    background-color: green;
+    border-radius: 8px;
+}
+
+#progress_3 {
+    height: 36px;
+    width: 70%;
+    top: -9px;
+    border-radius: 8px;
+    height: 36px;
+    width: 70%;
+    top: -9px;
+    left: -10px;
+    position: relative;
+    background-color: green;
+}
+
+#progress_4 {
+    border-radius: 8px;
+    height: 36px;
+    width: 80%;
+    top: -9px;
+    left: -10px;
+    position: relative;
+    background-color: green;
+}
+footer{
+    height: 110px;
+    margin-top: 437px;   
+    width: 100%;
+    background-color: rgb(4 4 156 / 68%);
+}
+footer  .span{
+    font-weight: bold;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+footer .footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;   
+}
+
+footer .footer div {
+    border-radius: 15px;
+    text-align: center;
+    width: 30px;
+    padding: 15px;
+}
+
+footer .footer div .fa-brands {
+    font-size: 29px;
+}
+
+footer .footer div a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer div .fa-solid {
+    font-size: 29px;
+}
+
+footer .footer div .fa-brands:hover {
+    color: red;
+    transition: 0.4s;
+}
+
+footer .footer div .fa-solid:hover {
+    color: red;
+    transition: 0.4s;
+}
+
+footer .footer div:hover {
+    background-color: gray;
+    color: red;
+    transition: 0.4s;
+}
